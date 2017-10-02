@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aj.call.MainActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:id="@+id/mob"
+        android:textAlignment="inherit"
+        android:textSize="20dp"
+        android:hint="Mobile Number">
+        <requestFocus/>
+    </EditText>
+
+   <ImageButton
+       android:layout_width="195dp"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_call"
+       android:id="@+id/call"
+       android:layout_marginTop="460dp"
+       />
+
+    <ImageButton
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dialpad"
+        android:layout_toRightOf="@+id/call"
+        android:id="@+id/dial"
+        android:layout_marginTop="460dp"
+        />
+</RelativeLayout>
